@@ -1,0 +1,25 @@
+var cafe = "cafe";
+var leite = "leite";
+var cha = "cha";
+
+var valor = cha;
+
+switch (valor) {
+  case "cafe":
+    console.log("Café: R$ 04,23");
+    break;
+  case "leite":
+    console.log("Leite: R$ 68,80");
+    break;
+  case "cha":
+    console.log("Chá: R$ 12,40");
+    break;
+}
+
+EU COMO  o Cliente solicito uma bebida 
+
+ENTÃO a opção switch deve avalar o que foi selecionado e atribuir o valor para a variável "valor"
+
+QUANDO  o cliente escolher  uma opção inválida, então uma mensagem é exibida informando que deve-se escolher café, leite ou chá.
+
+Então se uma opção válida for escolhida, é exibida uma mensagem personalizada e o valor à ser pago formatado com duas casas decimais.
